@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    
+    <div class="big-img" id="bigimgBox">
+        <img src="images/pexels-photo-1213447.jpeg" id="bigImg" alt="" />
+        <span  onclick="closeBigImg()">X</span>
+    </div>
+
+    <!-- image grid goes here -->
+    <div class="image-grid">
+        
+        <img src="images/pexels-photo-1213447.jpeg" alt="" onclick="openBigImg(this.src)" />
+        <img src="images/pexels-photo-1402787.jpeg" alt="" onclick="openBigImg(this.src)" />
+        <img src="images/pexels-photo-1456291.jpeg" alt="" onclick="openBigImg(this.src)" />
+        <img src="images/pexels-photo-1525041.jpeg" alt="" onclick="openBigImg(this.src)" />
+        <img src="images/pexels-photo-1624496.jpeg" alt="" onclick="openBigImg(this.src)" />
+        <img src="images/pexels-photo-459203.jpeg" alt="" onclick="openBigImg(this.src)" />
+        <img src="images/pexels-photo-807598.jpeg" alt="" onclick="openBigImg(this.src)" />
+        <img src="images/pexels-photo-842711.jpeg" alt="" onclick="openBigImg(this.src)" />
+        <img src="images/pexels-photo-325044.webp" alt="" onclick="openBigImg(this.src)" />
+        <img src="images/pexels-photo-1146134.jpeg" alt="" onclick="openBigImg(this.src)" />
+        <img src="images/pexels-photo-1213447.jpeg" alt="" onclick="openBigImg(this.src)" />
+        <img src="images/pexels-photo-1367192.jpeg" alt="" onclick="openBigImg(this.src)" />
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
